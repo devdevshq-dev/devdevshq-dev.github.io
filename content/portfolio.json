@@ -1,0 +1,136 @@
+{
+  "about": "I am a results-driven Software Development Engineer with a proven track record of building highly scalable backend systems, optimizing database performance, and executing complex, zero-downtime migrations. With professional experience at industry-leading organizations like Kotak811 and Amazon, I specialize in distributed systems, microservices architecture, and cloud technologies.",
+  "socials": {
+    "linkedin": "https://linkedin.com/in/deveshkumarsharma",
+    "github": "https://github.com/devesh475",
+    "secondGithub": "https://github.com/devdevshq-dev"
+  },
+  "experience": [
+    {
+      "company": "Kotak811",
+      "role": "Software Development Engineer 2",
+      "date": "April 2026 – Present",
+      "bullets": [
+        "Delivered 3 critical features that enhanced the service's Annual Recurring Revenue (ARR) by 2.5x, directly contributing to business growth.",
+        "Owned the end-to-end migration of Kotak811.com to Kotak811.bank.in, ensuring zero disruption across all dependent applications and services."
+      ]
+    },
+    {
+      "company": "Kotak811",
+      "role": "Software Development Engineer",
+      "date": "February 2023 – March 2026",
+      "bullets": [
+        "Architected and deployed event-driven microservices using Node.js, Kafka, and MongoDB, successfully processing 10K+ concurrent requests with 99.9% uptime.",
+        "Optimized MongoDB performance through mongoose.lean enforcement, index pruning, and S3 offloading strategies, achieving a 20% reduction in query latency and a 35% decrease in memory consumption.",
+        "Engineered a Video KYC system utilizing AWS Amplify to process approximately 12K daily verifications, decreasing verification time by 50% and improving accuracy by 25%.",
+        "Eliminated critical production issues by resolving Node.js memory leaks and unhandled promise rejections, reducing API timeouts by 80%."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "role": "Software Development Engineer",
+      "date": "July 2022 – February 2023",
+      "bullets": [
+        "Built a high-throughput DynamoDB-to-DynamoDB live migration service supporting 1M TPS with 2ms read latency and 30ms write latency to ensure 100% data consistency.",
+        "Implemented zero-downtime database migrations with schema transformation and instant rollback capabilities for critical production workloads.",
+        "Reduced the operational ticket backlog by 30% through systematic debugging and root cause analysis."
+      ]
+    },
+    {
+      "company": "Job Dae",
+      "role": "Software Engineer Intern",
+      "date": "June 2021 – September 2021",
+      "bullets": [
+        "Owned the end-to-end authentication system, company profile management, and an ML-based resume ranking algorithm for candidate evaluation.",
+        "Integrated a SonarQube-based automated testing pipeline, decreasing post-release bugs by 50% and improving overall code maintainability."
+      ]
+    }
+  ],
+  "awards": [
+    "On the Spot Solver Award"
+  ],
+  "projects": [
+    {
+      "name": "TweetMe",
+      "stack": [
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "bullets": [
+        "Built a full-featured social media platform with authentication, real-time follower systems, and core engagement features (tweets, likes, comments).",
+        "Architected a RESTful API with Django ORM for efficient database operations."
+      ]
+    },
+    {
+      "name": "College Space",
+      "stack": [
+        "Python",
+        "Django",
+        "Heroku"
+      ],
+      "bullets": [
+        "Developed a centralized document management repository serving 2,000+ active users at NIT Nagaland.",
+        "Implemented robust search, request, and upload functionalities secured with role-based access control."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "items": [
+        "JavaScript",
+        "C++",
+        "SQL",
+        "Python"
+      ]
+    },
+    {
+      "name": "Backend & Frameworks",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "Django",
+        "REST API Design",
+        "OAuth 2.0",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Databases & Messaging",
+      "items": [
+        "MongoDB",
+        "AWS DynamoDB",
+        "Redis",
+        "PostgreSQL",
+        "Kafka",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "items": [
+        "AWS (S3, Amplify, Lambda, EC2)",
+        "CI/CD",
+        "Docker",
+        "Git",
+        "Jest",
+        "Swagger"
+      ]
+    },
+    {
+      "name": "Core Competencies",
+      "items": [
+        "Distributed Systems",
+        "Data Structures & Algorithms",
+        "System Design",
+        "Performance Optimization"
+      ]
+    }
+  ],
+  "education": {
+    "institution": "National Institute of Technology, Nagaland",
+    "date": "June 2022",
+    "degree": "Bachelor of Technology in Computer Science & Engineering (CGPA: 9.19/10.0)"
+  }
+}
