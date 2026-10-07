@@ -63,7 +63,7 @@ I am a results-driven Software Development Engineer with a proven track record o
 * **Languages:** JavaScript, C++, SQL, Python[cite: 1]
 * **Backend & Frameworks:** Node.js, Express.js, Django, REST API Design, OAuth 2.0, Microservices[cite: 1]
 * **Databases & Messaging:** MongoDB, AWS DynamoDB, Redis, PostgreSQL, Kafka, RabbitMQ[cite: 1]
-* **Cloud & DevOps:** AWS (S3, Amplify, Lambda, EC2), CI/CD, Docker, Git, Jest, Swagger[cite: 1]
+* **Cloud & DevOps:** AWS (S3, Amplify, Lambda, EC2), CI/CD, Docker, Git[cite: 1]
 * **Core Competencies:** Distributed Systems, Data Structures & Algorithms, System Design, Performance Optimization[cite: 1]
 
 ## Education

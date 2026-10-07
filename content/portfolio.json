@@ -113,9 +113,7 @@
         "AWS (S3, Amplify, Lambda, EC2)",
         "CI/CD",
         "Docker",
-        "Git",
-        "Jest",
-        "Swagger"
+        "Git"
       ]
     },
     {
