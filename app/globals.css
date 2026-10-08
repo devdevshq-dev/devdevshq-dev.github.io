@@ -119,7 +119,7 @@ main,.site-footer { position:relative; z-index:1; }
 .project-card { padding:31px; display:flex; flex-direction:column; position:relative; overflow:hidden; }
 .project-card::before { content:""; position:absolute; inset:0; z-index:-1; pointer-events:none; background:radial-gradient(circle at 95% 0,#0ea5e916,transparent 48%); }
 .project-card:nth-child(even)::before { background:radial-gradient(circle at 95% 0,#8b5cf620,transparent 48%); }
-.project-card:nth-child(even):hover,.community-card:nth-child(even):hover { border-color:#8b5cf666; }
+.project-card:nth-child(even):hover,.community-card-chess:hover { border-color:#8b5cf666; }
 .project-top { display:flex; align-items:center; justify-content:space-between; gap:12px; color:var(--accent); }
 .project-icon { display:flex; align-items:center; justify-content:center; width:51px; height:51px; border:1px solid #38bdf822; border-radius:12px; background:#0ea5e910; }
 .project-top > span:last-child { color:#8596b2; font-family:var(--font-mono); font-size:.75rem; }
@@ -137,7 +137,7 @@ main,.site-footer { position:relative; z-index:1; }
 .community-card h3 { font-size:1.45rem; font-weight:700; letter-spacing:-.03em; margin-top:10px; }
 .community-card p { color:var(--muted); margin-top:8px; }
 .community-link { display:block; color:var(--accent); font-size:.875rem; font-weight:600; margin-top:19px; }
-.community-card:nth-child(even) .eyebrow,.community-card:nth-child(even) .community-link { color:var(--violet); }
+.community-card-chess .eyebrow,.community-card-chess .community-link { color:var(--violet); }
 .mock-server-card { grid-column:1/-1; display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.3fr); }
 .mock-server-preview { display:flex; flex-direction:column; justify-content:center; gap:22px; min-width:0; padding:36px; color:var(--accent); border-right:1px solid #273248; background:radial-gradient(ellipse at 15% 0,#0ea5e91c,transparent 70%),#080e1c; }
 .mock-response { border:1px solid #38bdf830; border-radius:12px; overflow:hidden; background:#050a14; font-family:var(--font-mono); font-size:.8125rem; }

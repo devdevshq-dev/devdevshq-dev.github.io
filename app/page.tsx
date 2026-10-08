@@ -41,8 +41,8 @@ export default function Home() {
         </div>
         <div className="metrics">
           <div data-reveal><strong>10K<span>+</span></strong><p>Concurrent requests</p><small>Microservices at Kotak811</small></div>
-          <div data-reveal data-reveal-delay="60"><strong>99.9<span>%</span></strong><p>Service uptime</p><small>Event-driven systems</small></div>
-          <div data-reveal data-reveal-delay="120"><strong>1M</strong><p>Transactions per second</p><small>Live migration service at Amazon</small></div>
+          <div data-reveal data-reveal-delay="60"><strong>99.99<span>%</span></strong><p>Service uptime</p><small>Event-driven systems</small></div>
+          <div data-reveal data-reveal-delay="120"><strong>1M+ DB</strong><p>Transactions per second</p><small>Live migration service at Amazon</small></div>
           <div data-reveal data-reveal-delay="180"><strong>2.5<span>×</span></strong><p>Annual recurring revenue</p><small>Impact of three delivered features</small></div>
         </div>
       </section>
@@ -70,8 +70,6 @@ export default function Home() {
         <SectionHeading number="04" title="Giving back to the community" id="community-heading"/>
         <p className="section-intro" data-reveal>Useful tools for developers. A little play for everyone.</p>
         <div className="project-grid">
-          <a className="community-card" data-reveal href="https://100devtools.pages.dev/" target="_blank" rel="noopener noreferrer"><div className="community-image-frame"><img data-scroll-image src="/images/developer-toolbox.webp" alt="Editorial illustration of a mechanical keyboard and electronic components" width="1000" height="563" loading="lazy" decoding="async"/></div><div className="community-card-body"><span className="eyebrow">DEVELOPER RESOURCES</span><h3>Developer Tool Box</h3><p>Tools for everyday development.</p><span className="community-link">Visit the developer toolbox</span></div><span className="sr-only"> (opens in a new tab)</span></a>
-          <a className="community-card" data-reveal data-reveal-delay="80" href="https://shatranj.pages.dev/" target="_blank" rel="noopener noreferrer"><div className="community-image-frame"><img data-scroll-image src="/images/online-chess.webp" alt="Editorial illustration of graphite and ivory chess pieces on a chessboard" width="1000" height="563" loading="lazy" decoding="async"/></div><div className="community-card-body"><span className="eyebrow">STRATEGY & PLAY</span><h3>Online Chess</h3><p>Take a break and play a game of chess online.</p><span className="community-link">Play chess</span></div><span className="sr-only"> (opens in a new tab)</span></a>
           <article className="community-card mock-server-card" data-reveal aria-labelledby="mock-server-title">
             <div className="mock-server-preview" aria-hidden="true">
               <Server size={36}/><span className="eyebrow">MOCK API PLATFORM</span>
@@ -91,6 +89,8 @@ export default function Home() {
               <a className="community-link" href="https://mockapi-server.pages.dev/" target="_blank" rel="noopener noreferrer">Visit Mock Server<span className="sr-only"> (opens in a new tab)</span></a>
             </div>
           </article>
+          <a className="community-card" data-reveal href="https://100devtools.pages.dev/" target="_blank" rel="noopener noreferrer"><div className="community-image-frame"><img data-scroll-image src="/images/developer-toolbox.webp" alt="Editorial illustration of a mechanical keyboard and electronic components" width="1000" height="563" loading="lazy" decoding="async"/></div><div className="community-card-body"><span className="eyebrow">DEVELOPER RESOURCES</span><h3>Developer Tool Box</h3><p>Tools for everyday development.</p><span className="community-link">Visit the developer toolbox</span></div><span className="sr-only"> (opens in a new tab)</span></a>
+          <a className="community-card community-card-chess" data-reveal data-reveal-delay="80" href="https://shatranj.pages.dev/" target="_blank" rel="noopener noreferrer"><div className="community-image-frame"><img data-scroll-image src="/images/online-chess.webp" alt="Editorial illustration of graphite and ivory chess pieces on a chessboard" width="1000" height="563" loading="lazy" decoding="async"/></div><div className="community-card-body"><span className="eyebrow">STRATEGY & PLAY</span><h3>Online Chess</h3><p>Take a break and play a game of chess online.</p><span className="community-link">Play chess</span></div><span className="sr-only"> (opens in a new tab)</span></a>
         </div>
       </section>
 
