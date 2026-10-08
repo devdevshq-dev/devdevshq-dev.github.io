@@ -21,6 +21,8 @@ Open the local URL printed by the server, normally `http://localhost:5173`.
 
 The “Giving back to the community” section links to [Developer Tool Box](https://100devtools.pages.dev/) and [Online Chess](https://shatranj.pages.dev/). Both links open in a new tab.
 
+It also features Mock Server: configurable mock APIs, Google SSO and optional password login, owner UUID API keys, security controls, and deployment details. Its frontend connectivity is explicitly marked as awaiting verification.
+
 ## Motion
 
 Sections reveal once as they enter the viewport, with staggered cards, subtle image parallax, animated section rules, and a reading progress line. Animation uses native browser APIs and CSS with no extra dependencies. Scrolling remains native. Content is readable before JavaScript loads, keyboard focus reveals content immediately, and reduced-motion preferences disable moving effects, including when changed while viewing the page.

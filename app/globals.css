@@ -138,6 +138,18 @@ main,.site-footer { position:relative; z-index:1; }
 .community-card p { color:var(--muted); margin-top:8px; }
 .community-link { display:block; color:var(--accent); font-size:.875rem; font-weight:600; margin-top:19px; }
 .community-card:nth-child(even) .eyebrow,.community-card:nth-child(even) .community-link { color:var(--violet); }
+.mock-server-card { grid-column:1/-1; display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.3fr); }
+.mock-server-preview { display:flex; flex-direction:column; justify-content:center; gap:22px; min-width:0; padding:36px; color:var(--accent); border-right:1px solid #273248; background:radial-gradient(ellipse at 15% 0,#0ea5e91c,transparent 70%),#080e1c; }
+.mock-response { border:1px solid #38bdf830; border-radius:12px; overflow:hidden; background:#050a14; font-family:var(--font-mono); font-size:.8125rem; }
+.mock-response-bar { display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; padding:12px 16px; border-bottom:1px solid #273248; color:#b9e6ff; }
+.mock-response-bar > span:last-child { color:#86efac; }
+.mock-response pre { margin:0; padding:20px; color:#a9bbd7; white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.8; }
+.mock-preview-caption { font-family:var(--font-mono); font-size:.75rem; color:#8a9bb8; }
+.mock-server-features { padding-left:18px; margin:20px 0; color:var(--muted); font-size:.875rem; line-height:1.8; }
+.mock-server-features li { margin-bottom:12px; padding-left:4px; }.mock-server-features li:last-child { margin-bottom:0; }.mock-server-features li::marker { color:var(--accent); }.mock-server-features strong { color:#dce6f8; font-weight:600; }
+.community-card .mock-server-status { display:flex; align-items:baseline; gap:9px; padding-top:16px; border-top:1px solid #273248; color:#fcd38d; font-size:.8125rem; }
+.mock-server-status > span { flex:none; width:6px; height:6px; border-radius:50%; background:currentColor; }
+@media(max-width:700px) { .mock-server-card { grid-template-columns:1fr; }.mock-server-preview { padding:26px; border-right:0; border-bottom:1px solid #273248; } }
 .skills-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:22px; }
 .skill-card { grid-column:span 2; padding:27px; }
 .skill-card:nth-last-child(-n+2) { grid-column:span 3; }

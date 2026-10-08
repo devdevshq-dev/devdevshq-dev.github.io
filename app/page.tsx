@@ -1,4 +1,4 @@
-import { MapPin, Code2, GraduationCap, Award, Terminal, Database, Cloud, Network } from "lucide-react";
+import { MapPin, Code2, GraduationCap, Award, Terminal, Database, Cloud, Network, Server } from "lucide-react";
 import PortfolioHeader from "@/components/PortfolioHeader";
 import ProfileLinks from "@/components/ProfileLinks";
 import ScrollMotion from "@/components/ScrollMotion";
@@ -72,6 +72,25 @@ export default function Home() {
         <div className="project-grid">
           <a className="community-card" data-reveal href="https://100devtools.pages.dev/" target="_blank" rel="noopener noreferrer"><div className="community-image-frame"><img data-scroll-image src="/images/developer-toolbox.webp" alt="Editorial illustration of a mechanical keyboard and electronic components" width="1000" height="563" loading="lazy" decoding="async"/></div><div className="community-card-body"><span className="eyebrow">DEVELOPER RESOURCES</span><h3>Developer Tool Box</h3><p>Tools for everyday development.</p><span className="community-link">Visit the developer toolbox</span></div><span className="sr-only"> (opens in a new tab)</span></a>
           <a className="community-card" data-reveal data-reveal-delay="80" href="https://shatranj.pages.dev/" target="_blank" rel="noopener noreferrer"><div className="community-image-frame"><img data-scroll-image src="/images/online-chess.webp" alt="Editorial illustration of graphite and ivory chess pieces on a chessboard" width="1000" height="563" loading="lazy" decoding="async"/></div><div className="community-card-body"><span className="eyebrow">STRATEGY & PLAY</span><h3>Online Chess</h3><p>Take a break and play a game of chess online.</p><span className="community-link">Play chess</span></div><span className="sr-only"> (opens in a new tab)</span></a>
+          <article className="community-card mock-server-card" data-reveal aria-labelledby="mock-server-title">
+            <div className="mock-server-preview" aria-hidden="true">
+              <Server size={36}/><span className="eyebrow">MOCK API PLATFORM</span>
+              <div className="mock-response"><div className="mock-response-bar"><span>GET /api/demo</span><span>200 OK</span></div><pre><code>{'{\n  "response": "your preset",\n  "match": {\n    "params": {},\n    "headers": {},\n    "body": {}\n  }\n}'}</code></pre></div>
+              <span className="mock-preview-caption">Configure. Match. Respond.</span>
+            </div>
+            <div className="community-card-body">
+              <span className="eyebrow">DEVELOPER INFRASTRUCTURE</span><h3 id="mock-server-title">Mock Server</h3>
+              <p>A configurable mock API platform for testing integrations and developing against predictable responses.</p>
+              <ul className="mock-server-features">
+                <li><strong>Flexible responses.</strong> Projects, endpoints, and response presets with configurable responses based on parameters, headers, and request bodies.</li>
+                <li><strong>Account access.</strong> Google SSO account creation, a user profile, and optional email/password login after setting a password.</li>
+                <li><strong>Owner API keys.</strong> Sign-in protects mock creation; each owner’s unique UUID API key protects mock execution.</li>
+                <li><strong>Security controls.</strong> Ownership checks, CSRF protection, secure sessions, rate limits, payload limits, and masked sensitive headers in logs.</li>
+                <li><strong>Deployment.</strong> Cloudflare Pages deployment prepared and a healthy AWS backend launched with PostgreSQL, Redis, and Caddy HTTPS.</li>
+              </ul>
+              <p className="mock-server-status"><span aria-hidden="true"/>Frontend connectivity still needs verification.</p>
+            </div>
+          </article>
         </div>
       </section>
 
