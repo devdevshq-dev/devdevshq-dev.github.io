@@ -88,7 +88,7 @@ export default function Home() {
                 <li><strong>Security controls.</strong> Ownership checks, CSRF protection, secure sessions, rate limits, payload limits, and masked sensitive headers in logs.</li>
                 <li><strong>Deployment.</strong> Cloudflare Pages deployment prepared and a healthy AWS backend launched with PostgreSQL, Redis, and Caddy HTTPS.</li>
               </ul>
-              <p className="mock-server-status"><span aria-hidden="true"/>Frontend connectivity still needs verification.</p>
+              <a className="community-link" href="https://mockapi-server.pages.dev/" target="_blank" rel="noopener noreferrer">Visit Mock Server<span className="sr-only"> (opens in a new tab)</span></a>
             </div>
           </article>
         </div>

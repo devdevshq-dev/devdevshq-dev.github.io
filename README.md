@@ -21,7 +21,7 @@ Open the local URL printed by the server, normally `http://localhost:5173`.
 
 The “Giving back to the community” section links to [Developer Tool Box](https://100devtools.pages.dev/) and [Online Chess](https://shatranj.pages.dev/). Both links open in a new tab.
 
-It also features Mock Server: configurable mock APIs, Google SSO and optional password login, owner UUID API keys, security controls, and deployment details. Its frontend connectivity is explicitly marked as awaiting verification.
+It also links to [Mock Server](https://mockapi-server.pages.dev/): configurable mock APIs, Google SSO and optional password login, owner UUID API keys, security controls, and deployment details.
 
 ## Motion
 

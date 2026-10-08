@@ -147,8 +147,6 @@ main,.site-footer { position:relative; z-index:1; }
 .mock-preview-caption { font-family:var(--font-mono); font-size:.75rem; color:#8a9bb8; }
 .mock-server-features { padding-left:18px; margin:20px 0; color:var(--muted); font-size:.875rem; line-height:1.8; }
 .mock-server-features li { margin-bottom:12px; padding-left:4px; }.mock-server-features li:last-child { margin-bottom:0; }.mock-server-features li::marker { color:var(--accent); }.mock-server-features strong { color:#dce6f8; font-weight:600; }
-.community-card .mock-server-status { display:flex; align-items:baseline; gap:9px; padding-top:16px; border-top:1px solid #273248; color:#fcd38d; font-size:.8125rem; }
-.mock-server-status > span { flex:none; width:6px; height:6px; border-radius:50%; background:currentColor; }
 @media(max-width:700px) { .mock-server-card { grid-template-columns:1fr; }.mock-server-preview { padding:26px; border-right:0; border-bottom:1px solid #273248; } }
 .skills-grid { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:22px; }
 .skill-card { grid-column:span 2; padding:27px; }
